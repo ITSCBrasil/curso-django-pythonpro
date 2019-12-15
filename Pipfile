@@ -10,9 +10,9 @@ pytest-cov = "*"
 
 [packages]
 django = "*"
-gunicorn = "*"
 pytest-django = "*"
 python-decouple = "*"
+dj-database-url = "*"
 
 [requires]
 python_version = "3.7"
