@@ -105,6 +105,8 @@ AUTH_PASSWORD_VALIDATORS = [
 # Internationalization
 # https://docs.djangoproject.com/en/3.0/topics/i18n/
 
+STATIC_ROOT = os.path.join(BASE_DIR, '/static/')
+
 LANGUAGE_CODE = 'en-us'
 
 TIME_ZONE = 'UTC'
