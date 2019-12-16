@@ -21,4 +21,4 @@ script:
   - pipenv run pytest --cov=pypro
 
 after_success:
-  - pipenv run codecov
+  - codecov
