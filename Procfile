@@ -1,1 +1,1 @@
-web: gunicorn pypro.wsgi:application --log-file - --log-level debug
+web: gunicorn pypro.wsgi --preload --log-file -
